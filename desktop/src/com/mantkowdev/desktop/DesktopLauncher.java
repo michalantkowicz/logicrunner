@@ -6,6 +6,7 @@ import com.mantkowdev.Main;
 
 public class DesktopLauncher {
 	public static void main (String[] arg) {
+		// test change
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		new LwjglApplication(new Main(), config);
 	}
